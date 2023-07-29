@@ -1,0 +1,21 @@
+
+
+intro boost
+
+geometry/calculation/base.cpp
+impl
+
+include/geometry/calculation/polygon.hpp
+impl
+test
+
+include/geometry/calculation/polyline.hpp
+impl
+test
+
+include/geometry/elements/rotation2d.hpp
+impl test
+
+
+include/distribution/gaussian.hpp
+impl
