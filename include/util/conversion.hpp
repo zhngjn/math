@@ -1,7 +1,7 @@
 #ifndef UTIL_CONVERSION_HPP 
 #define UTIL_CONVERSION_HPP
 
-#include "util/constants.hpp"
+#include "constants.hpp"
 
 namespace math
 {

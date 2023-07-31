@@ -1,0 +1,5 @@
+include/model/fake_map/grid_manager.hpp
+impl
+
+include/model/fake_map/grid_data_provider.hpp
+impl

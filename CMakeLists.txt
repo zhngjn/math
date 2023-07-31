@@ -13,4 +13,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wall")
 
 add_subdirectory(src/numeric)
 add_subdirectory(src/geometry)
+# add_subdirectory(src/distribution)
+add_subdirectory(src/util)
+# add_subdirectory(src/model)
 add_subdirectory(test)
