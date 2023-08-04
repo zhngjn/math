@@ -1,6 +1,8 @@
 #ifndef UTIL_CONSTANTS_HPP 
 #define UTIL_CONSTANTS_HPP
 
+#include <limits>
+
 #include <boost/math/constants/constants.hpp>
 
 namespace math
@@ -14,9 +16,9 @@ template <typename T>
 constexpr T epsilon();
 
 template <>
-constexpr double epsilon<double>() { return 1e-6; }
+constexpr double epsilon<double>() { return std::numeric_limits<double>::epsilon(); }
 template <>
-constexpr float epsilon<float>() { return 1e-4; }
+constexpr float epsilon<float>() { return std::numeric_limits<float>::epsilon(); }
 
 template <typename T>
 constexpr T PI = boost::math::constants::pi<T>();
